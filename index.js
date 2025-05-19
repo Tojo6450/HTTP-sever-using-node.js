@@ -18,12 +18,12 @@ const server = http.createServer((req, res) => {
 
   if (req.url === "/contact") {
     res.setHeader("Content-Type", "text/plain");
-    res.write("This is my Contact no.");
+    res.write("This is my Contact number");
     res.end();
   }
 });
 
-const PORT = 3001;
+const PORT = 3000;
 server.listen(PORT, () => {
   console.log(`🔥 Listening on PORT ${PORT}`);
 const http = require("http");})
